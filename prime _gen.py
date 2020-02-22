@@ -10,4 +10,4 @@ def isPrime(n):
         return True
 # print(isPrime(4))
 for i in range(100):
-    print(i,isPrime(i))
+    print(str(i)+" -> "+str(isPrime(i)))
